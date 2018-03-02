@@ -1,5 +1,5 @@
 {
-  "name": "stateful_kubernetes_ci_deployment",
+  "name": "stateful_kubernetes_ci_deployment_test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,7 @@
     "express": "^4.16.2"
   },
   "devDependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "jest": "^22.4.2"
   }
 }
