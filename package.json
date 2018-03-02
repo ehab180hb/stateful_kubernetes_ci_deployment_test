@@ -1,0 +1,18 @@
+{
+  "name": "stateful_kubernetes_ci_deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "Ehab Khaireldin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
