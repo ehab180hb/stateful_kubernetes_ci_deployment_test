@@ -4,6 +4,7 @@ const fs = require('fs');
 const promisify = require('util').promisify
 const readFile = promisify(fs.readFile);
 const appendFile = promisify(fs.appendFile);
+const fileName = 'content.txt';
 
 app.get('/write/:text', async (req, res) => {
     const { text } = req.params;
